@@ -1,6 +1,15 @@
-# Cooperative and competitive RL agents
+# Cooperative and competitive Multi-Agent Reinforcement Learning
 
-This Project aims to compare and analyze cooperative and competitive strategies in RL.
+This Project aims to compare and analyze cooperative and competitive strategies in Multi-Agent Reinforcement Learning (MARL). It is the outcome of a practical course I did with my fellow students [daehiff](https://github.com/daehiff) and Camilo in my M.Sc. studies. 
+
+We focused on the three algorithms [DDPG](https://arxiv.org/abs/1509.02971), [MADDPG](https://arxiv.org/abs/1706.02275) and [DE-MADDPG](https://arxiv.org/abs/2003.10598). Find our report in cooperative_rl_report.pdf.
+
+This repo is based on the following two other repositories:
+
+* https://github.com/Gouet/MADDPG-pytorch
+* https://github.com/openai/multiagent-particle-envs
+
+Props and big thanks to them, they made our lifes a little easier!
 
 ## Setup
 
@@ -21,10 +30,8 @@ Keep in mind to only test episode numbers that were saved, otherwise the agents 
 
 ## Scenarios
 
-There are different multi-agent scenarios to test cooperation and competition of RL agents. Several scenarios have been made and tested by 
-openai: https://github.com/openai/multiagent-particle-envs. Check them out!
-We have adopted their simple_tag environment and based on it, we created 3 more complex environments to further test cooperation and competition 
-through reinforcement learning:
+There are different multi-agent scenarios to test cooperation and competition of RL agents. Several scenarios have been made and tested by openai: https://github.com/openai/multiagent-particle-envs. Check them out!
+We have adopted their simple_tag environment and based on it, we created 3 more complex environments to further test cooperation and competition through reinforcement learning:
 
 * tragedy_common
 * hunter_gatherer_teams
@@ -118,15 +125,3 @@ In the implementations of each scenario you can find the function benchmark_data
 To interactively check out an environment, run:
 
 `pipenv run bin/interactive.py --scenario [name_of_scenario].py`
-
-
-
-
-## Additional Info
-
-This repo is based on the following two other repositories:
-
-* https://github.com/Gouet/MADDPG-pytorch
-* https://github.com/openai/multiagent-particle-envs
-
-Props and big thanks to them, they made our lives a little easier :) <3
