@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+torch = "*"
+tensorboard = "*"
+ddpg = "*"
+agent = "*"
+gym = "==0.10.5"
+numpy = "*"
+torchvision = "*"
+pyglet = "==1.5.11"
+pandas = "*"
+seaborn = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
