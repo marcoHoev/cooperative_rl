@@ -1,8 +1,8 @@
 # Cooperative and competitive Multi-Agent Reinforcement Learning
 
-This Project aims to compare and analyze cooperative and competitive strategies in Multi-Agent Reinforcement Learning (MARL). It is the outcome of a practical course I did with my fellow students [daehiff](https://github.com/daehiff) and Camilo in my M.Sc. studies. 
+This Project aims to compare and analyze cooperative and competitive strategies in Multi-Agent Reinforcement Learning (MARL). It is the outcome of a practical course I did with my fellow students [daehiff](https://github.com/daehiff) and [camilo](https://github.com/camilorequena) in my M.Sc. studies. 
 
-We focused on the three algorithms [DDPG](https://arxiv.org/abs/1509.02971), [MADDPG](https://arxiv.org/abs/1706.02275) and [DE-MADDPG](https://arxiv.org/abs/2003.10598). Find our report in cooperative_rl_report.pdf.
+We focused on the three algorithms [DDPG](https://arxiv.org/abs/1509.02971), [MADDPG](https://arxiv.org/abs/1706.02275) and [DE-MADDPG](https://arxiv.org/abs/2003.10598). Find our report in cooperative_rl_report.pdf in this repo.
 
 This repo is based on the following two other repositories:
 
